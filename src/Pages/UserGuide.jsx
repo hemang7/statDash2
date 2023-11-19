@@ -4,57 +4,56 @@ import React from "react";
 
 function UserGuide() {
   return (
-    <div className=" p-6">
+    <div className="p-6">
       <h1 className="text-4xl font-bold mt-14 mb-8">User Guide</h1>
       <p className="text-2xl sm:p-5 mb-10">
-        Welcome to our QCS Statistics Dashboard! Follow these steps to unleash
-        the power of data.
+        Welcome to our QCS Statistics Dashboard! To maximize the utility of your data, follow these comprehensive steps.
       </p>
       <div className="mb-6">
         <h2 className="text-2xl font-semibold mb-3">
           Step 1: Import Your Data
         </h2>
         <p>
-          Start by clicking the{" "}
-          <span className="text-blue-500">"Choose File"</span> button to select
-          your CSV file. Once chosen, hit the{" "}
-          <span className="text-blue-500">"Import File"</span> button to load
-          your data.
+          Initiate the process by clicking the{" "}
+          <span className="text-blue-500">"Choose File"</span> button. Select your CSV or Excel (xlsx) file, and subsequently click{" "}
+          <span className="text-blue-500">"Import File"</span> to seamlessly load your data into the system.
         </p>
       </div>
       <div className="mb-6">
         <h2 className="text-2xl font-semibold mb-3">
-          Step 2: Select Rows and Columns
+          Step 2: Row Analysis
         </h2>
         <p>
-          Upon import, you can cherry-pick the rows and columns you wish to
-          analyze. The dropdown menus are your magic wands for this task.
+          Following the data import, carefully choose the column intended for analysis from the dropdown menu. Employ checkboxes to select the specific rows for inclusion in the analysis. Configure the analysis by selecting the desired row-level parameters.
         </p>
       </div>
       <div className="mb-6">
         <h2 className="text-2xl font-semibold mb-3">
-          Step 3: Choose Analysis Type
+          Step 3: Column Analysis
         </h2>
         <p>
-          Dabble in the diverse world of analysis! Pick your desired analysis
-          type from our offerings of statistical wonders and data
-          visualizations.
+          For column analysis, meticulously select both primary and secondary columns from the dropdown menus. Employ checkboxes to designate analysis parameters such as mean, stdError, stdDev, CV, etc.
         </p>
       </div>
       <div className="mb-6">
         <h2 className="text-2xl font-semibold mb-3">
-          Step 4: Generate Analysis Report
+          Step 4: Choose Chart Type
         </h2>
         <p>
-          The grand finale! Click the{" "}
-          <span className="text-blue-500">"Download Report"</span> button. A
-          beautifully crafted analysis report in PDF format will be at your
-          service.
+          Opt for the chart type that best aligns with your visualization preferences. This can be accomplished through the available options.
+        </p>
+      </div>
+      <div className="mb-6">
+        <h2 className="text-2xl font-semibold mb-3">
+          Step 5: Generate Analysis Report
+        </h2>
+        <p>
+          Conclude the process by clicking the{" "}
+          <span className="text-blue-500">"Download Report"</span> button. The system will diligently generate a comprehensive analysis report in PDF format, encapsulating your selected analyses and insights.
         </p>
       </div>
       <p className="text-gray-600">
-        If you encounter any mysteries or need guidance, check our FAQ section
-        or send a message to our support wizards.
+        Should you encounter queries or require guidance, please refer to our FAQ section or reach out to our dedicated support team. We are committed to facilitating your mastery of the data at hand!
       </p>
     </div>
   );
